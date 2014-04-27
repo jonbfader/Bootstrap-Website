@@ -120,8 +120,8 @@ li.rss a { background-position: -396px 0}
 li.rss a:hover { background-position: -396px -44px}
 
 /* Only High-Res Display - Retina Screens*/
-@media screen and (max-device-width: 1180px), only screen and (min-resolution: 120dpi)  {
+/*@media screen and (max-device-width: 1180px), only screen and (min-resolution: 120dpi)  {
 .mud-social li a { background:url("../img/social-media-pack-html.svg") no-repeat;}
-}
+}*/
 
 /* end ================================================== */
