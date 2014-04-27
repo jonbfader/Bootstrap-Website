@@ -29,13 +29,13 @@ a {
 }
 
 .my-header {
-	height: 400px;
+	height: 500px;
 	background-color: #2980B9; /*blue*/
 	background-size: cover;
 }
 
 .icon {
-	margin: 25px auto 25px;
+	margin: 50px auto 25px;
 	background-color: transparent;
 	border: 1px solid #2980B9;
 	border-color: #fff;
