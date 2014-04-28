@@ -7,6 +7,11 @@ a {
 	color: #E74C3C; /*red*/
 }
 
+.nav li a:hover, 
+.nav li a:focus {
+	background-color: #F9F9F9;
+}
+
 .img-center {
 	display:block;
 	margin-right: auto;
@@ -29,13 +34,16 @@ a {
 }
 
 .my-header {
-	height: 500px;
+	min-height: 500px;
 	background-color: #2980B9; /*blue*/
 	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 100px;
 }
 
 .icon {
-	margin: 50px auto 25px;
+	margin: 15px auto 25px;
 	background-color: transparent;
 	border: 1px solid #2980B9;
 	border-color: #fff;
@@ -51,6 +59,12 @@ a {
 	text-align: center;
 }
 
+.icon:hover {
+	background-color: #f9f9f9;
+	color: #000;
+	border-color: #000;
+}
+
 .logo {
 	margin-top: 50px;
 	width: 150px;
@@ -62,11 +76,11 @@ a {
 	margin-top: 5px;
 	text-align: center;
 	font-size: 4em;
-	text-shadow: 0 0 10px #000;
 }
 
 .tagline {
 	color: #fff;
+	font-size: 30px;
 	margin-top: 5px;
 	margin-right: auto;
 	margin-left: auto;
