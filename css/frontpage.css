@@ -1,3 +1,4 @@
+
 a {
 	color: ##007aff;
 }
@@ -92,6 +93,11 @@ a {
 
 .small-it a {
 	color: #ECF0F1;
+}
+
+pre strong {
+	color: #007aff;
+	font-weight: normal;
 }
 
 footer {
